@@ -1,0 +1,107 @@
+@media (max-width:600px){
+    .container{
+       width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    #logo img{
+        margin-left: 24px;
+    }
+    nav ul{
+        margin-left: 0;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    /* banner-section */
+    .banner-data{
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 0;
+
+    }
+    .banner-data h1{
+        font-size: 25px !important;
+        padding: 10px;
+    }
+    .banner-data p {
+        padding: 10px;
+    }
+    .learn-more{
+        padding: 10px;
+    }
+    #banner-section{
+        height: auto;
+    }
+    /* about */
+    .about-content{
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .about-left-data{
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .about-left-data h1,p {
+        padding-left: 10px;
+    }
+    .about-right-data{
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    /* gallery-section */
+    .gallery-images{
+        flex-direction: column;
+    }
+    .gallery-images img{
+        width: 90%;
+        padding-left: 20px;
+    }
+    /* services -section */
+    .services-content{
+        flex-direction: column;
+    }
+    .services-box{
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    #services-section{
+        height: auto;
+    }
+    /* contact section */
+    .contact-content{
+        flex-direction: column;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .input-fields input{
+        width: 91%;
+    }
+    .input-fields textarea{
+        padding: 61px;
+    }
+    .contact-map{
+        width: 100%;
+    }
+    /* footer  */
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-box h3{
+        padding-left: 10px;
+    }
+    .footer-box ul{
+        padding-left: 10px;
+    }
+    .footer-box{
+        width: 90%;
+        padding: 0px 0;
+        height: auto;
+        padding: 10px;
+    }
+        
+}
